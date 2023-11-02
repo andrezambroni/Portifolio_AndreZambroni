@@ -1,0 +1,19 @@
+Header
+ Meu Logo - Sobre mim | Experiencia | Habilidades | Projetos | Contato | Currículo
+
+
+1 - Nome, Função, Apaixonado por.... Resumo de experiencia | do outro lado | meus links 
+
+2 - experiencia e formação
+
+3 - Habilidades (pegar da mari exemplo )
+
+4 - Projetos
+
+5 - Contato
+
+6 - Currículo
+
+
+Footer
+ - Designed and coded by André Zambroni
