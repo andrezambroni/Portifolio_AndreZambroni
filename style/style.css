@@ -109,6 +109,7 @@
 
 .section2 h3 {
     color: var(--text2);
+    margin-bottom: 50px;
 }
 
 .section2_container_sobre {
@@ -116,7 +117,7 @@
     color: var(--text2);
     max-width: 1240px;
     width: 100%;
-    margin: 50px auto;
+    margin: 0px auto;
     border: 2px solid var(--brand);
     padding: 1.875rem;
     border-radius: 20px;
@@ -160,8 +161,16 @@
 
 /* section 3 */
 
+.section3 {
+    background: var(--background);
+    color: var(--text2);
+    
+}
 
-
+.section3_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
 
