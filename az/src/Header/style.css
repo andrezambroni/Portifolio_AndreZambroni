@@ -1,0 +1,175 @@
+@import '../global.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+
+    font-family: var(--font-family);
+
+
+    display: block;
+
+    background: var(--bg-header);
+
+    
+}
+
+nav {
+
+    width: 100%;
+
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    color: var(--secundary-dark-color);
+    font-weight: bold;
+    font-size: var(--font-size);
+    margin: 25px;
+
+    float: left;
+
+    align-items: center;
+
+}
+
+
+.header_right {
+    margin: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    float: right;
+
+    align-items: center;
+    color: var(--primary-color);
+
+    font-family: var(--font-family);
+    font-size: var(var--font-size);
+    font-weight: var(--font-weight);
+
+
+
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+
+a {
+    text-decoration: none;
+    gap: 10px;
+
+    color: var(--secundary-dark-color);
+
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+
+    margin-right: 40px;
+}
+
+p {
+    align-items: center;
+}
+
+#hamburger-menu i {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: var(--primary-color);
+  content: "\f0c9";
+}
+
+
+
+
+#hamburger-menu {
+    position: relative;
+    cursor: pointer;
+}
+
+#hamburger-menu i {
+    color: var(--primary-color);
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#hamburger-menu:hover i {
+    transform: rotate(45deg);
+}
+
+#hamburger-menu.open i {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 1024px) {
+    #hamburger-menu {
+        display: block;
+    }
+}
+
+
+
+
+/* medias */
+
+@media (max-width: 1024px) {
+
+    .header_left,
+    .header_right {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .header_left p,
+    .header_right p {
+        font-size: 1em;
+
+    }
+
+    .header_left {
+        height: 100%;
+    }
+
+    .header_right {
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}

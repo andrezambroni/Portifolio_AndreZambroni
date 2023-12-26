@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+  font-family: 'Roboto Slab';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Roboto Slab';
+}
+
+:root {
+  --bg-dark-color: #0A0A0A;
+  --bg-color: #F3F3F3;
+  --bg-header: #6969692a;
+
+  --primary-color: #3FD763;
+  --primary-dark-color: #9D4CCB;
+
+  --secundary-color: #66C77D;
+  --secundary-dark-color: #7F3DC9;
+
+  --font-family: 'Roboto Slab' sans-serif;
+  --font-size: 20px;
+  --font-weight: bold;
+}
